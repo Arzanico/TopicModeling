@@ -1,0 +1,3 @@
+Toda la data para trabajar con los modelos se la pueden descargar desde
+
+https://www.kaggle.com/zynicide/wine-reviews
