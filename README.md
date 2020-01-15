@@ -3,7 +3,7 @@
 
 Implementacion de NTLK y LDA para la identificacion de topicos.
 
-Este es un poyecto que comenzamos hace ya un largo tiempo con Katja Huarcaya Quinteros.
+Este es un poyecto que comenzamos hace ya un largo tiempo con Katja Huarcaya Quinteros (https://github.com/KATJAH92)
 
 Este desarrollo esta basado sobre un dataSet de descripciones de vinos hosteado en kaggle.com 
 (https://www.kaggle.com/zynicide/wine-reviews)
