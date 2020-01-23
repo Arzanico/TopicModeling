@@ -12,3 +12,5 @@ El objetivo del trabajo es entrenar un algoritmo que pueda predecir el varietal 
 
 Para el desarrollo del proyecto utilizamos librerias como NLTK y LDA en conjunto con las herramientas de SciKitLearn
 
+Voy a intentar actualizar el proyecto al menos una vez por semana
+
