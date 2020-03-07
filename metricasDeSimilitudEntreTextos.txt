@@ -1,0 +1,22 @@
+Metricas de comparacion entre descripciones.
+
+La similitud entre las descripciones las voy a determinar evaluando una combinacion de metricas diferentes.
+
+Antes de realizar las siguientes comprobaciones todos los textos tiene que ser normalizados.
++ Pasamos todo el texto a minusculas
++ Quitamos stop words * Considerar quitar la puntuacion, en los casos necesarios, para comparar palabras de manera adecuada.
++ Lematizar, dentro de lo posible
+
+1.- Coincidencia de terminos:
+	Comparacion de dos textos. Cada texto constituye un conjunto de palabras. La proporcion de coincidencia resulta de dividir la cantidad de objetos en la interseccion de los conjuntos y cantidad total de objetos.
+
+2.- Coincidencia en la posicion:
+	Tomando el conjunto ordenado, como aparece naturalmente, de palabras en un texto, voy a comparar las posiciones que ocupan los terminos comunes entre dos grupos. La coincidencia de la posicion refuerza el grado de similitud en un factor a determinar
+
+3.- Word Distance between Word Embeddings:
+	Este punto lo estoy desarrollando. Hay varias librerias listas para implementar este tipo de metricas, pero aun tengo que explorar las caracteristicas fundamentales de cada una.
++ https://towardsdatascience.com/word-distance-between-word-embeddings-cc3e9cf1d632
++ https://radimrehurek.com/gensim/auto_examples/tutorials/run_wmd.html
++ https://towardsdatascience.com/word-movers-distance-for-text-similarity-7492aeca71b0
++ https://medium.com/@diego.campos.sobrino/m%C3%A9tricas-de-similitud-para-cadenas-de-texto-parte-ii-m%C3%A9tricas-basadas-en-operaciones-de-edici%C3%B3n-af9c8aa71bdb
+
