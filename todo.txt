@@ -1,0 +1,1 @@
+Revisazar la discretizacion de los varietales y los tipos de datos.
