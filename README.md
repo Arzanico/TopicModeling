@@ -12,7 +12,5 @@ El objetivo del trabajo es entrenar un algoritmo que pueda predecir el varietal 
 
 Para el desarrollo del proyecto utilizamos librerias como NLTK y LDA en conjunto con las herramientas de SciKitLearn
 
-Ultima actualizacion 9-2
-Unificacion de calases
 
 
