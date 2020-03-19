@@ -1,1 +1,7 @@
 Revisazar la discretizacion de los varietales y los tipos de datos.
+
+Los ultimos dias estuve trabajando en algunos posibles algoritmos que me den una materica de similitud entre grupos de textos.
+
+El problema que se presento en la clasisficacion fue la canidad de clases diferentes y el desbalance del data set.
+    La primera y mejor mediad a tomar con este problema es la unificacion de clases y para eso estuve pensando en las metricas de similitud. Mi idea era unificar las clases que tengan una simulitud, para considerar esta simmilitud no selamente intente verifar el texto de las descripciones sino hacer una combinacion de los scores de similitud tanto del texto descriptibo como del nombre de la clase.
+    El segundo problema del desbalance podria solucionarse si con la unificacion las clases mas escasas se unen con las mas comunnes, pero hasta no conseguir un buen algoritmo que evalue el problema anterior, no puede avanzar. Si se agotan las instancias de solucion proveias la ultima solucion es quitar es informacion del data set y trabajar con los datos que sirven, o agrupar todo lo que no sirve, en una sola clase llamada "otros"
